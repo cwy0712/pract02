@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="practical2:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/practical2_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="practical2" />
+          <element id="jpa-descriptors" facet="practical2/jpa/JPA" />
+          <element id="library" level="project" name="practical2" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="mysql-connector-java-5.1.35-bin" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF" />
+      <element id="javaee-facet-resources" facet="practical2/web/Web" />
+    </root>
+  </artifact>
+</component>
